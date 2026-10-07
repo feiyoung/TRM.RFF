@@ -6,7 +6,7 @@ The model is
 
 $$
 Y_t = X_t^\top \alpha_0 + (X_t^\top \beta_0)
-\mathbf{1}\{f_0(Z_t) \ge U_t\} + \varepsilon_t.
+\mathbf{1}\{(f_0(Z_t) \ge U_t)\} + \varepsilon_t.
 $$
 
 ## Installation
