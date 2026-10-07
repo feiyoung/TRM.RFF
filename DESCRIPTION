@@ -1,0 +1,30 @@
+Package: TRM.RFF
+Type: Package
+Title: Nonlinear Threshold Regression with Random Fourier Features
+Version: 0.1.0
+Authors@R: c(
+    person(
+      given = "Wei",
+      family = "Liu",
+      role = c("aut", "cre"),
+      email = "liuweideng@gmail.com"
+    )
+  )
+Description: Provides methods for estimation and inference in threshold
+    regression models with nonlinear multivariate regime boundaries.
+    Nonlinear regime boundaries are approximated using random Fourier
+    features, enabling scalable estimation in settings with multiple
+    threshold variables. The package implements smoothed first-stage
+    boundary estimation, hard-regime regression refitting, and
+    heteroskedasticity- and autocorrelation-consistent inference for
+    structural regression coefficients. It also provides tools for
+    simulation, regime classification, and model summarization.
+Imports:
+    stats,
+    sandwich,
+    future,
+    future.apply
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Config/roxygen2/version: 8.0.0
