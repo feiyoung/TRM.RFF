@@ -12,7 +12,7 @@ $$
 ## Installation
 
 ```r
-devtools::install(".")
+remotes::install("feiyoung/TRM.RFF")
 library(TRM.RFF)
 ```
 
