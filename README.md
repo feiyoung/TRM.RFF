@@ -127,10 +127,10 @@ supWald.RFF(...)
 Null hypothesis:
   No regime effects (beta = 0)
 
-Sup-Wald statistic: <computed value>
-Bootstrap p-value: <computed value>
-Bootstrap replications: 99
-Valid candidate boundaries: <computed value>
+Sup-Wald statistic: 262.9 
+Bootstrap p-value: 0.0025 
+Bootstrap replications: 399
+Valid candidate boundaries: 25
 ```
 
 The simulated example has nonzero regime-shift coefficients, so it is designed as an alternative rather than a null example.
