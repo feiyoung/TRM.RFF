@@ -8,7 +8,7 @@ $$
 Y_t = X_t^\top \alpha_0 + (X_t^\top \beta_0)
 \mathbf{1}\{(f_0(Z_t) \ge U_t)\} + \varepsilon_t.
 $$
-
+For more detail, see our arXiv paper: https://arxiv.org/abs/2610.13290
 ## Installation
 
 ```r
